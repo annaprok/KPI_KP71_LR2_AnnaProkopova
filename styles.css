@@ -1,0 +1,306 @@
+.downArrow{
+	position: absolute;
+	bottom: 15%;
+  left: 75%;
+ 
+
+}
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@font-face{
+
+  font-family: 'Geomanist';
+
+  src: url("/home/anna/workspace/projects/epam/lab2/fonts/geomanist-regular.woff");
+  src: url("/home/anna/workspace/projects/epam/lab2/fonts/geomanist-regular.woff") format('woff'),
+  
+  url('/home/anna/workspace/projects/epam/lab2/fonts/geomanist-regular.ttf') format('truetype'),
+  
+  url('/home/anna/workspace/projects/epam/lab2/fonts/geomanist-regular.svg') format('svg');
+
+  
+  }
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family: Helvetica;
+  margin: 0px;
+
+
+}
+
+
+p,h1,h2,h3,h4{
+  padding:30px;
+  margin:20px;
+  vertical-align: middle;
+}
+h1,h2,h3,h4{
+  font-family: Geomanist;
+}
+hr{
+  width: 90%;
+}
+figure{
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+figcaption{
+  text-align: center;
+  color: #ababab;
+  
+}
+#img1{
+  text-align:center;
+  margin-top:30%;
+  margin-bottom:70%;
+}
+#img2{
+  margin: 20px;
+  margin-left: 0px;
+  float:left;
+}
+#img3{
+  width: 100%;
+}
+#img4{
+  margin: 40px;
+  margin-right: 0px;
+  float:right;
+}
+
+.facebook-logo:hover,.instagram-logo:hover,.linked-in-logo:hover,.go-to-my-website:hover,.base2:hover {
+    animation: bounce 1s infinite;
+ } 
+
+
+.bacground-left {
+  width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(12, 12, 24, 0), rgba(5, 5, 11, 0) 58%, rgba(5, 5, 10, 0.49)),url(https://raw.githubusercontent.com/KyivEpamFeMentor/LR2/master/photo/wallpaper.png);
+    background-size: cover;
+    
+    position:fixed;
+    
+  
+
+}
+.content-right {
+ 
+  width: 50%;
+    height: 100%;
+    float:right;
+
+}
+
+.photo {
+
+    border-radius: 50%;
+    margin:20px;
+    float:left;
+    
+  
+  }
+  .arrow {
+    width: 30px;
+    height: 30px;
+    transform: rotate(-45deg);
+    border: solid 4px #5a5aff;
+  }
+  .user-name {
+
+  
+    font-size: 18px;
+  
+    font-weight: bold;
+
+    color: rgb(255, 255, 255);
+
+    position: fixed;
+    
+    left: 10%;
+    top: 5%;
+  
+  }
+  .blog {
+  
+    font-weight: bold;
+  
+  
+    color: rgb(255, 255, 255);
+
+    position: fixed;
+    
+    left: 10%;
+    top: 8%;
+  
+  }
+  
+  .logo{
+    position: relative;
+    left: 20px;
+    top: 20px;
+  }
+  
+  
+
+  .facebook-logo {
+
+    object-fit: contain;
+
+    position: fixed;
+    
+    left: 45%;
+    top: 80%;
+      
+  
+  }
+  .instagram-logo {
+
+    position: absolute;
+    object-fit: contain;
+
+    
+    left: 89%;
+    top: 84%;
+  
+  }
+  .linked-in-logo {
+
+    position: fixed;
+    object-fit: contain;
+ 
+    left: 44.5%;
+    top: 89%;
+  
+  }
+  
+  
+  .go-to-my-website {
+
+  
+    font-size: 16px;
+  
+    font-weight: bold;
+  
+  
+    color: rgb(255, 255, 255);
+
+    position: absolute;
+    
+    left: 10%;
+    top: 89%;
+  
+  }
+  .shape {
+
+    position: fixed;
+    left: 3%;
+    top: 89.4%;
+  
+  }    
+  
+  .shadow-box {
+
+    width: 100%;
+  
+    height: 306px;
+
+    padding: 40px;
+  
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.15);
+  
+    background-image: linear-gradient(to bottom, rgba(12, 12, 24, 0), rgba(155, 155, 231, 0) 70%, rgba(5, 5, 10, 0.12));
+    float: right;
+  
+  }
+  
+  
+  .base1 {
+
+    width: 436px;
+  
+    height: 40px;
+  
+    border-radius: 20px;
+  
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.05);
+  
+    border: solid 1px #dfe2e6;
+  
+  
+  }
+  .Subscribe {
+
+    width: 72px;
+  
+    height: 19px;
+  
+    font-family: Helvetica;
+  
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+   
+  
+  }
+  :placeholder-shown{
+  
+    font-size: 16px;
+  
+    color: #bababa;
+  }
+  
+  .base2 {
+    width: 104px;
+    height: 38px;
+    border-radius: 20px;
+    background-color: #29b1cc;
+    right: 16%;
+    
+    position: absolute;
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+  .oval {
+    width: 64px;
+    height: 64px;
+    background-color: #5a5aff;
+    border-radius: 40px;
+    right: -78%;
+    bottom: 30%;
+    position: relative;
+  }
+  .img{
+    object-fit: contain;
+    padding:20px;
+  }
+  
+  
